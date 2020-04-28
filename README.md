@@ -6,7 +6,7 @@ Greetings! For this programming challenge, I built a tool that provides autocomp
 
 ## Planning and File Structure
 
-**IF YOU DO NOT HAVE TIME TO VIEW EVERYTHING, THE 'MINIMUM VIABLE PRODUCT' CHALLENGE SOLUTION IS IN 'autocomplete_tool.py' AND CAN BE RUN ONCE YOU FOLLOW THE DIRECTIONS FOR SETTING UP THE DATABASE AND API**
+**If you do not have time to view everything, the minimum viable product' challenge solution is in the file 'autocomplete_tool.py' and can be run once you follow the directions for setting up the database and API.**
 
 First, I developed logic for the tool in the 'logic_planning.py' file. If you run this file with the command `python logic_planning.py`, then you can see a version of the tool at work. Running this planning version of the tool does not allow for an accumulation of data outside the running of the file.
 
