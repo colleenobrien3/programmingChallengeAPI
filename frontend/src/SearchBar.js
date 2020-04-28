@@ -28,7 +28,7 @@ class SearchBar extends Component {
     } else {
       this.state.all.forEach((item) => {
         if (item.name.includes(e.target.value)) {
-          console.log("yessir");
+          console.log("yes");
           possibilities.push(item.name);
         }
       });
