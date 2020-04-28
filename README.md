@@ -6,6 +6,8 @@ Greetings! For this programming challenge, I built a tool that provides autocomp
 
 ## Planning and File Structure
 
+**IF YOU DO NOT HAVE TIME TO VIEW EVERYTHING, THE 'MINIMUM VIABLE PRODUCT' CHALLENGE SOLUTION IS IN 'autocomplete_tool.py' AND CAN BE RUN ONCE YOU FOLLOW THE DIRECTIONS FOR SETTING UP THE DATABASE AND API**
+
 First, I developed logic for the tool in the 'logic_planning.py' file. If you run this file with the command `python logic_planning.py`, then you can see a version of the tool at work. Running this planning version of the tool does not allow for an accumulation of data outside the running of the file.
 
 For that reason, I set up the API and database, the files for which are found in the 'keyboard' and 'keyboard_django' folders. In the 'autocomplete_tool.py' file, I refactored the code from 'logic_planning.py' to work with the API so that data will be stored between uses of the new tool.
