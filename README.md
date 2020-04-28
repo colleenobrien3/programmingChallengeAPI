@@ -90,6 +90,8 @@ The database is called 'keyboard,' and the user is called 'admin'. When you run 
 
 ## Next Steps
 
+** If for some reason you are unable to get this project running locally on you computer, please let me know and I will get it deployed as soon as possible. I did not have the time this morning, but I will work on that as soon as I can.**
+
 Next, I hope to continue work on the frontend. I need to implement a few more changes. For example, I need to make the app re-fetch the data once the user hits the 'train' button so that they do not need to refresh the page. I also need to finish implementing some of the logic from the command line version into the app, such as splitting up the input into each word before it is added to the database.
 
 I also hope to add this functionality to an app I am building for finding information about cruelty-free cosmetics!
