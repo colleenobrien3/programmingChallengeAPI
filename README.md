@@ -19,9 +19,8 @@ Finally, I decided to translate some of the logic to work with a frontend applic
 - Python
 - Django REST Framework
 - PostgreSQL
-
-* JavaScript
-* React.js
+- JavaScript
+- React.js
 
 ## Getting Started
 
@@ -34,6 +33,11 @@ In order to setup the API and database locally, you will need the following inst
 - ['python'](https://www.python.org/downloads/)
 - ['pipenv'](https://github.com/pypa/pipenv)
 - ['postgresql'](https://www.postgresql.org/docs/9.3/tutorial-install.html)
+
+In order to run the frontend application locally, you will need:
+
+- ['node.js'](https://nodejs.org/en/download/)
+- ['npm'](https://www.npmjs.com/get-npm)
 
 ## Setup and Installation
 
@@ -63,6 +67,12 @@ psql -U postgres -f settings.sql
 
 8. Now that the API is set up, run the file 'autocomplete_tool.py' with the command `python autocomplete_tool.py` to use the tool. (If you wish to see the preliminary version of the tool, run this command with the logic_planning.py file.)
 
+**If you have time to view the frontend (trust me, it's fun):**
+
+1. Enter the 'frontend' directory. Run `npm install` to install dependencies from the package.json file.
+
+2. Use the command `npm run start` to start the React app in your server.
+
 ## Coding Style
 
 I installed [autopep8](https://github.com/hhatto/autopep8) for Python code format.
@@ -80,4 +90,8 @@ The database is called 'keyboard,' and the user is called 'admin'. When you run 
 
 ## Next Steps
 
-Next, I hope to set up a command line interface to make the tool more visually appealing and user-friendly. Also, I need to add functionality that disregards capitalization and punctuation for entering words into the database. Finally, I would like to set up an even more user friendly front end that shows the user the suggestions as they type in a word. Also, I hope to deploy the database so that people can use it all over.
+Next, I hope to continue work on the frontend. I need to implement a few more changes. For example, I need to make the app re-fetch the data once the user hits the 'train' button so that they do not need to refresh the page. I also need to finish implementing some of the logic from the command line version into the app, such as splitting up the input into each word before it is added to the database.
+
+I also hope to add this functionality to an app I am building for finding information about cruelty-free cosmetics!
+
+Finally, I would like to thank you for taking the time to review my work and consider me for this position! Please let me know if there is anything in particular you would like me to add to this challenge! Have a lovely day!
